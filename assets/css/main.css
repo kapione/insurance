@@ -2347,7 +2347,7 @@ input, select, textarea {
 		outline: 0;
 		padding: 0 1rem;
 		text-decoration: none;
-		width: 100%;
+		width: 25%;
 	}
 
 		input[type="text"]:invalid,
