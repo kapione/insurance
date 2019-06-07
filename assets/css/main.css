@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: Arial, Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -2567,11 +2567,11 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
+.image {
+    border: 0;
+    display: inline-block;
+    position: relative;
+}
 
 		.image img {
 			display: block;
@@ -4651,3 +4651,7 @@ input, select, textarea {
 		}
 
 	}
+
+.imagefade {
+    box-shadow: 0 0 8px 8px white inset;
+}
