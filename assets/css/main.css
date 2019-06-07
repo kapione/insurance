@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: Arial, Georgia, serif;
+		font-family: /*change to times new roman but only the first quote only*/ Arial, Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -293,7 +293,7 @@ input, select, textarea {
 
 	a {
 		color: #212931;
-		border-bottom-color: rgba(33, 41, 49, 0.5);
+		border-bottom-color: rgba(3, 41, 49, 0.5);
 	}
 
 		a:hover {
@@ -3363,12 +3363,12 @@ input, select, textarea {
 			line-height: 1;
 		}
 
-		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
-			margin-top: -0.25rem;
-			text-align: center;
-		}
+        #intro p {
+            font-size: 1.25rem;
+            font-style: oblique;
+            margin-top: -0.25rem;
+            text-align: center;
+        }
 
 		#intro + #header {
 			margin-top: -20rem;
